@@ -76,7 +76,7 @@
             "tcpNoDelay": true,
             "tcpKeepAliveIdle": 100,
             "mark": 255,
-            "domainStrategy": "fotceIP",
+            "domainStrategy": "forceIP",
             "happyEyeballs": {
               "enabled": true,
               "prioritizeIPv6": true,
