@@ -73,12 +73,16 @@
         },
         "streamSettings": {
           "sockopt": {
-            "tcpNoDelay": true,
-            "tcpKeepAliveIdle": 100,
-            "mark": 255,
-            "domainStrategy": "UseIP"
-          }
-        }
+            "domainStrategy": "forceIP",
+              "happyEyeballs": { 
+                      "enabled": true,
+                      "prioritizeIPv6": true, 
+                      "maxConcurrentTry": 4,
+                      "tryDelayMs": 250,
+                      "interleave": 1
+              }
+            }
+          } 
       },
       {
         "protocol": "dns",
