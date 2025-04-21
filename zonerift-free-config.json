@@ -76,10 +76,10 @@
             "tcpNoDelay": true,
             "tcpKeepAliveIdle": 100,
             "mark": 255,
-            "domainStrategy": "UseIP",
+            "domainStrategy": "fotceIP",
             "happyEyeballs": {
               "enabled": true,
-              "prioritizeIPv6": false,
+              "prioritizeIPv6": true,
               "maxConcurrentTry": 4,
               "tryDelayMs": 250,
               "interleave": 1
