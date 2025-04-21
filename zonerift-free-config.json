@@ -79,7 +79,7 @@
             "domainStrategy": "forceIP",
             "happyEyeballs": {
               "enabled": true,
-              "prioritizeIPv6": false,
+              "prioritizeIPv6": true,
               "maxConcurrentTry": 4,
               "tryDelayMs": 250,
               "interleave": 1
